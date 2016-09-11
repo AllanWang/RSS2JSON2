@@ -1,103 +1,33 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "rss-to-json@^1.0.2",
-        "scope": null,
-        "escapedName": "rss-to-json",
-        "name": "rss-to-json",
-        "rawSpec": "^1.0.2",
-        "spec": ">=1.0.2 <2.0.0",
-        "type": "range"
-      },
-      "C:\\Users\\User7681\\PA\\abo"
-    ]
-  ],
-  "_from": "rss-to-json@>=1.0.2 <2.0.0",
-  "_id": "rss-to-json@1.0.2",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/rss-to-json",
-  "_nodeVersion": "6.0.0",
-  "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/rss-to-json-1.0.2.tgz_1462007880535_0.8677143109962344"
-  },
-  "_npmUser": {
-    "name": "nasa8x",
-    "email": "nasa8x@gmail.com"
-  },
-  "_npmVersion": "3.8.6",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "rss-to-json@^1.0.2",
-    "scope": null,
-    "escapedName": "rss-to-json",
-    "name": "rss-to-json",
-    "rawSpec": "^1.0.2",
-    "spec": ">=1.0.2 <2.0.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/rss-to-json/-/rss-to-json-1.0.2.tgz",
-  "_shasum": "c39def8c35304d0d5d1fd00a385664ddbc01848d",
-  "_shrinkwrap": null,
-  "_spec": "rss-to-json@^1.0.2",
-  "_where": "C:\\Users\\User7681\\PA\\abo",
-  "author": {
-    "name": "Nasa8x",
-    "email": "nasa8x@gmail.com"
-  },
+    "name": "rss2json",
+    "version": "1.1.0",
+    "description": "RSS to JSON",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "node single.js"
+    },
+    "keywords": [
+        "rss-to-json",
+        "rss2json"
+    ],
+    "author": {
+        "name": "Allan",
+        "email": "asdfasdfvful@gmail.com",
+        "url": "https://github.com/AllanWang/RSS2JSON"
+    },
+    "homepage": "https://github.com/AllanWang/RSS2JSON",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AllanWang/RSS2JSON/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AllanWang/RSS2JSON"
+    },
+  "license": "ISC",
   "dependencies": {
     "request": "^2.72.0",
     "xml2js": "^0.4.16"
-  },
-  "description": "Rss to Json: RSS and Atom feed generator for Node.js",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "c39def8c35304d0d5d1fd00a385664ddbc01848d",
-    "tarball": "https://registry.npmjs.org/rss-to-json/-/rss-to-json-1.0.2.tgz"
-  },
-  "keywords": [
-    "rss-to-json",
-    "rss",
-    "rssparser",
-    "rssreader",
-    "rss reader",
-    "rss parser",
-    "rss",
-    "parser",
-    "reader",
-    "xml2js",
-    "xml2json",
-    "rss to json",
-    "rss2json",
-    "rss 2 json",
-    "feed-read",
-    "feed read",
-    "feed",
-    "feedparser",
-    "feed-parser",
-    "feed parser",
-    "feed-reader",
-    "feedreader",
-    "feed reader",
-    "rss json"
-  ],
-  "license": "MIT",
-  "maintainers": [
-    {
-      "name": "nasa8x",
-      "email": "nasa8x@gmail.com"
-    }
-  ],
-  "name": "rss-to-json",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "scripts": {},
-  "version": "1.0.2"
+  }
 }
