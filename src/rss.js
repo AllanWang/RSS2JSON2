@@ -33,7 +33,7 @@ module.exports = {
                         callback(null, rss);
                     });
                 } catch (error2) {
-                    callback(error2, null);
+                    return callback(error2, null);
                 }
 
             } else {
