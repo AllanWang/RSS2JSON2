@@ -26,7 +26,7 @@ module.exports = {
                         mergeAttrs: true
                     });
                     parser.addListener("error", function(err) {
-                        callback(err, null);
+                        return callback(err, null);
                     });
                     parser.parseString(xml, function(err, result) {
                         var rss = $.parser(result);
