@@ -43,6 +43,7 @@ module.exports = {
 
     },
     parser: function(json) {
+        if (!json) return null;
         var channel = json.rss.channel;
         var rss = {
             items: []
