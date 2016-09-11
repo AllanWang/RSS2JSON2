@@ -26,14 +26,14 @@ module.exports = {
                         mergeAttrs: true
                     });
                     parser.addListener("error", function(err) {
-                        return callback(err, null);
+                        callback(err, null);
                     });
                     parser.parseString(xml, function(err, result) {
                         var rss = $.parser(result);
                         callback(null, rss);
                     });
                 } catch (error2) {
-                    return callback(error2, null);
+                    console.log('JSON2RSS error');
                 }
 
             } else {
