@@ -27,9 +27,10 @@ module.exports = {
                 parser.addListener("error", function(err) {
                     callback(err, null);
                 });
-                console.log('TEST');
-                parser.parseString(xml.replace("\ufeff", ""), function(err, result) {
-                    var rss = $.parser(result.replace("\ufeff", ""));
+                parser.parseString(xml.replace("\ufeff", " "), function(err, result) {
+                  console.log('ERR');
+                  console.log(err);
+                    var rss = $.parser(result.replace("\ufeff", " "));
                     callback(null, rss);
                     //console.log(JSON.stringify(result.rss.channel));
                 });
