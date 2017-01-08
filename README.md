@@ -2,13 +2,15 @@
 #About
 Util for parse ATOM and RSS feed resources and normalize them to JSON object.
 
+This is the port of the [original](https://www.npmjs.com/package/rss-to-json) dependency, with a few fixes.
+
 # Installation
 
 Install via NPM
 
 ```js
 
-npm install rss-to-json
+npm install rss2json2
 
 ```
 
