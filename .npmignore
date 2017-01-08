@@ -6,5 +6,6 @@ node_modules/*
 obj/*
 *.bak
 config.js
-.log
+*.log
 note.txt
+.idea/
